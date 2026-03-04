@@ -1,0 +1,56 @@
+[project]
+name = "github-mcp-safe"
+version = "1.0.0"
+description = "Production-grade rate limiting for GitHub MCP servers"
+authors = [{name = "Jonathan Melton", email = "jonathanmelton004@gmail.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = ["github", "mcp", "rate-limiting", "api", "automation", "anthropic", "claude"]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+
+dependencies = [
+    "fastmcp>=0.4.0",
+    "httpx>=0.27.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/TangMan69/github-mcp-safe"
+Documentation = "https://github.com/TangMan69/github-mcp-safe#readme"
+Repository = "https://github.com/TangMan69/github-mcp-safe"
+Issues = "https://github.com/TangMan69/github-mcp-safe/issues"
+Consulting = "https://calendly.com/jonathanmelton004/30min"
+
+[project.scripts]
+github-mcp-safe = "github_mcp_safe.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "mypy>=1.8.0",
+    "ruff>=0.1.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
