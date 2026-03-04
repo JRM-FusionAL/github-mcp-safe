@@ -1,7 +1,7 @@
 """
 Safe GitHub API client with built-in rate limiting.
 
-Author: Jonathan Melton (@TangMan69)
+Author: Jonathan Melton (@JonathanMelton-FusionAL)
 License: MIT
 """
 
