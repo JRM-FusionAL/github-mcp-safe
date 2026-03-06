@@ -24,10 +24,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/TangMan69/github-mcp-safe"
-Documentation = "https://github.com/TangMan69/github-mcp-safe#readme"
-Repository = "https://github.com/TangMan69/github-mcp-safe"
-Issues = "https://github.com/TangMan69/github-mcp-safe/issues"
+Homepage = "https://github.com/JonathanMelton-FusionAL/github-mcp-safe"
+Documentation = "https://github.com/JonathanMelton-FusionAL/github-mcp-safe#readme"
+Repository = "https://github.com/JonathanMelton-FusionAL/github-mcp-safe"
+Issues = "https://github.com/JonathanMelton-FusionAL/github-mcp-safe/issues"
 Consulting = "https://calendly.com/jonathanmelton004/30min"
 
 [project.scripts]

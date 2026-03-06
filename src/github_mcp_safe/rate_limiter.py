@@ -4,7 +4,7 @@ Production-grade rate limiter for GitHub API.
 Enforces GitHub's multi-tier rate limits with sliding window tracking,
 exponential backoff, and comprehensive metrics. Battle-tested on 10,000+ requests.
 
-Author: Jonathan Melton (@TangMan69)
+Author: Jonathan Melton (@JonathanMelton-FusionAL)
 License: MIT
 """
 

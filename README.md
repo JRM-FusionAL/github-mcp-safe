@@ -35,12 +35,12 @@ GitHub's API has **multi-tier rate limits** that are easy to violate:
 
 ## The Solution
 
-`github-mcp-safe` is a **drop-in replacement** for any GitHub MCP server that adds:
+`github-mcp-safe` is a hardened GitHub MCP server implementation that adds:
 
 ✅ **Automatic rate limiting** with sliding windows  
 ✅ **Exponential backoff** on 429/403 errors  
 ✅ **GraphQL batching** (97% API usage reduction)  
-✅ **Real-time monitoring** with metrics dashboard  
+✅ **Rate-limit metrics reporting** via MCP tool output  
 ✅ **Production-tested** on 10,000+ requests, zero suspensions  
 
 ---

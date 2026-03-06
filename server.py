@@ -4,7 +4,7 @@ GitHub MCP Server with production-grade rate limiting.
 Drop-in replacement for any GitHub MCP server that adds automatic
 rate limiting, exponential backoff, and suspension prevention.
 
-Author: Jonathan Melton (@TangMan69)
+Author: Jonathan Melton (@JonathanMelton-FusionAL)
 License: MIT
 """
 
