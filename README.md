@@ -12,7 +12,7 @@
 > **"I got suspended by GitHub while building this. Now I help companies avoid the same mistake."**  
 > — Jonathan Melton, Founder of FusionAL
 
-[📧 **Email**](mailto:jonathanmelton.fusional@gmail.com) • [🗓️ **Book Consultation**](https://calendly.com/jonathanmelton004/30min) • [🚀 **FusionAL Platform**](https://github.com/JonathanMelton-FusionAL/FusionAL)
+[🌐 **fusional.dev**](https://fusional.dev) • [📧 **Email**](mailto:jonathanmelton.fusional@gmail.com) • [🗓️ **Book Consultation**](https://calendly.com/jonathanmelton004/30min)
 
 ---
 
@@ -95,6 +95,7 @@ async with SafeGitHubClient(token="ghp_...") as client:
 **Origin Story**: Built after getting suspended by GitHub for rate limit violations. Turned the suspension into a business helping others avoid the same mistakes.
 
 **Need help?** FusionAL builds production-grade AI integrations that don't get you banned.  
+→ [🌐 fusional.dev](https://fusional.dev) — **Production MCP deployments (from $3,500)**  
 → [📧 jonathanmelton.fusional@gmail.com](mailto:jonathanmelton.fusional@gmail.com)  
 → [🗓️ Book a consulting call](https://calendly.com/jonathanmelton004/30min)
 
@@ -111,6 +112,13 @@ async with SafeGitHubClient(token="ghp_...") as client:
 ⭐ **Star this repo** if it saved you from a GitHub suspension!
 
 💼 **Hiring?** FusionAL builds AI automation systems that respect platform limits and keep you online.
+
+**Services**:
+- **Starter Pilot** ($3,500): Prove value with 1 workflow in 2 weeks
+- **Growth Pilot** ($9,000): Multi-workflow rollout with observability  
+- **Managed Ops** ($3k/mo): Ongoing governance + support
+
+[🌐 **fusional.dev**](https://fusional.dev) — Self-hosted MCP governance for enterprise AI
 
 📧 **Business Contact**: jonathanmelton.fusional@gmail.com  
 🗓️ **Schedule Consultation**: https://calendly.com/jonathanmelton004/30min  
