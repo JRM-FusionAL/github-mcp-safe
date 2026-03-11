@@ -99,7 +99,8 @@ class SafeGitHubClient:
 
             data = resp.json()
             if "errors" in data:
-                raise Exception(f"GraphQL errors: {data['errors']}")
+                error_count = len(data["errors"])
+                raise Exception(f"GraphQL returned {error_count} error(s) — check auth and rate limits")
 
             return data.get("data", {})
 
