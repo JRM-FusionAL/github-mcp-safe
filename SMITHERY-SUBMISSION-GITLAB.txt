@@ -5,7 +5,7 @@ SMITHERY SUBMISSION FORM DATA (GITLAB VERSION)
 URL: https://smithery.ai/submit
 
 Repository URL:
-https://gitlab.com/jonathanmelton-fusional/github-mcp-safe
+https://gitlab.com/JRM-FusionAL/github-mcp-safe
 
 Server Name:
 github-mcp-safe
@@ -33,12 +33,13 @@ Author Contact:
 jonathanmelton.fusional@gmail.com
 
 Documentation URL:
-https://gitlab.com/jonathanmelton-fusional/github-mcp-safe/-/blob/main/README.md
+https://gitlab.com/JRM-FusionAL/github-mcp-safe/-/blob/main/README.md
 
 Homepage URL (optional):
-https://gitlab.com/jonathanmelton-fusional
+https://gitlab.com/JRM-FusionAL
 
 Additional Notes:
 Built by FusionAL consultancy after founder got suspended by GitHub while testing this very rate limiter. Real-world production testing: 10,000+ API requests, 0 suspensions, 99.7% success rate. Includes sliding window rate limiting, exponential backoff with jitter, and GraphQL batching that reduces API calls by 97%. Open source on GitLab.
 
 =================================================================
+

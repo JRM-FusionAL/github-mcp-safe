@@ -1,4 +1,4 @@
-# github-mcp-safe: Business Account Deployment Script
+﻿# github-mcp-safe: Business Account Deployment Script
 # Execute these commands in PowerShell from C:\Users\puddi\Projects\github-mcp-safe
 
 # Navigate to repo
@@ -24,7 +24,7 @@ Write-Host "`nCommitting..." -ForegroundColor Green
 git commit -m "Initial commit: Production-grade GitHub MCP rate limiting
 
 ## FusionAL Origin Story
-Built after founder's primary account (@TangMan69) was suspended for API 
+Built after founder's primary account (@JRM-FusionAL) was suspended for API 
 rate limit violations while testing Copilot integration workflows.
 
 This suspension led to the creation of FusionAL - a professional consultancy 
