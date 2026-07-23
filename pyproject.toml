@@ -19,7 +19,7 @@ classifiers = [
 ]
 
 dependencies = [
-    "fastmcp>=3.2.0",
+    "fastmcp>=3.4.4",
     "httpx>=0.28.1",
 ]
 
@@ -42,10 +42,10 @@ build-backend = "setuptools.build_meta"
 
 [tool.uv]
 dev-dependencies = [
-    "pytest>=8.0.0",
-    "pytest-asyncio>=0.23.0",
-    "mypy>=1.8.0",
-    "ruff>=0.1.0",
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "mypy>=2.3.0",
+    "ruff>=0.15.22",
 ]
 
 [tool.ruff]
