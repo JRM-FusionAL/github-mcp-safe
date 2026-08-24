@@ -55,3 +55,7 @@ Thumbs.db
 
 # Distribution
 *.whl
+
+# Maintenance cron output — machine-local noise.
+MAINTENANCE.md
+.hermes/maintenance.log
