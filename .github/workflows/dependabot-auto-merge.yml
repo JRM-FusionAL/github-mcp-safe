@@ -20,8 +20,9 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 
       - name: Ensure ready-for-human label exists
-        run: gh label create ready-for-human --color ededed --description "Requires human implementation or review" --force
+        run: gh label create ready-for-human --repo "$GH_REPO" --color ededed --description "Requires human implementation or review" --force
         env:
+          GH_REPO: ${{ github.repository }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Auto-merge safe (patch/minor) updates
