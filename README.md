@@ -95,8 +95,8 @@ async with SafeGitHubClient(token="ghp_...") as client:
 **Origin Story**: Built after getting suspended by GitHub for rate limit violations. Turned the suspension into a business helping others avoid the same mistakes.
 
 **Need help?** FusionAL builds production-grade AI integrations that don't get you banned.  
-→ [🌐 fusional.dev](https://fusional.dev) — **Production MCP deployments (from $3,500)**  
-→ [📧 jonathanmelton.fusional@gmail.com](mailto:jonathanmelton.fusional@gmail.com)  
+→ [🌐 fusional.dev](https://fusional.dev) — **AI workflow builds from $750 · MCP Access Audit $2,500**  
+→ [📧 jrm@fusional.dev](mailto:jrm@fusional.dev)  
 → [🗓️ Book a consulting call](https://calendly.com/jonathanmelton004/30min)
 
 ---
@@ -114,9 +114,17 @@ async with SafeGitHubClient(token="ghp_...") as client:
 💼 **Hiring?** FusionAL builds AI automation systems that respect platform limits and keep you online.
 
 **Services**:
-- **Starter Pilot** ($3,500): Prove value with 1 workflow in 2 weeks
-- **Growth Pilot** ($9,000): Multi-workflow rollout with observability  
-- **Managed Ops** ($3k/mo): Ongoing governance + support
+
+| Offer | Price | For |
+|------|-------|-----|
+| **Starter Workflow** | $750 fixed | One AI-assisted workflow for a small owner-run business, up to 2 existing apps |
+| **Standard Workflow** | $1,500 fixed | One workflow for a multi-crew service business, up to 3 apps incl. field-service platform |
+| **Care** | $300/mo | Small fixes on a FusionAL-built workflow, up to 2 hrs/month |
+| **MCP Access Audit** | $2,500 | Read-only review of one live agent/MCP workflow, 5 business days |
+| **AI Use Policy Review** | $3,500 | Staff AI-use policy and settings checklist, 5 business days |
+| **Agent Ops Retainer** | $2,000/mo | Monthly permission-drift review, up to 8 hrs |
+
+Scope is agreed on a call before payment. Details: [fusional.dev](https://fusional.dev) · [jrm@fusional.dev](mailto:jrm@fusional.dev) · [Book a 30-min call](https://calendly.com/jonathanmelton004/30min)
 
 [🌐 **fusional.dev**](https://fusional.dev) — Self-hosted MCP governance for enterprise AI
 
